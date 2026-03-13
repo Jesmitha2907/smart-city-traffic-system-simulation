@@ -1,0 +1,15 @@
+Functional Requirements:
+1.The system must accept user inputs for the number of junctions, the distance between them in meters, and the average vehicle speed in km/h.
+2.The program must use the physics formula Time = Distance / Speed to calculate exact signal offsets.
+3.The simulation must run in real-time with a one-second refresh rate to show live signal changes.
+4.The logic must support a four-lane configuration for every junction added to the system.
+5.The interface must use color-coded signals (Red, Green, and Yellow) to show the current status of each lane.
+Technical Requirements:
+1.The project must be developed using the Python programming language.
+2.The system requires the Time module to manage the refresh rate and signal durations.
+3.The system requires the OS module to clear the terminal screen for a smooth dashboard display.
+4.The user interface must be a terminal-based grid where junctions are columns and lanes are rows.
+Environment Requirements:
+1.The system requires a computer with Python 3.x installed.
+2.The terminal or command prompt used must support ANSI color codes to display the signal colors correctly.
+3.The program should be able to run on any standard operating system including Windows, macOS, or Linux.
